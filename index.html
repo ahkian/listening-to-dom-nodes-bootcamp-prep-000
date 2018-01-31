@@ -37,5 +37,12 @@
         </div>
       </div>
     </div>
+    <script id = "hi">
+      const tagger = document.querySelector('div label')
+      function textChanger(e) {
+        e.innerHTML = "I'm different"
+      }
+      tagger.addEventListener('click', textChanger)
+    </script>
   </body>
 </html>
